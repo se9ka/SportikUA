@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+ api:
+  image: sportik_api_image
+  restart: unless-stopped
+  container_name: sportik_api_container
+  build:
+   context: .
+   dockerfile: Sportik_API/Dockerfile
+  ports:
+  - "8080:80" 
+  depends_on:
+  - db
+  networks:
+  - sportik_net
+  environment:
+   - ASPNETCORE_ENVIRONMENT=Release
+ db:
+  image: mcr.microsoft.com/mssql/server:2022-latest
+  container_name: sportik_db_container
+  ports: 
+  - "1433:1433"
+  environment:
+  - SA_PASSWORD=SportikAPI2003
+  - ACCEPT_EULA=Y
+  networks:
+  - sportik_net
+  volumes:
+  - sportik_db_container:/var/lib/mssql/data
+
+networks:
+ sportik_net:
+  driver: bridge
+
+volumes:
+  sportik_db_container:

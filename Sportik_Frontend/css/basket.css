@@ -1,0 +1,154 @@
+
+  .basket {
+    position: fixed;
+    top: 0;
+    right: -200%;
+    width: 600px;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+    z-index: 10;
+  }
+  
+  .basket-active {
+    right: 50%;
+    transform: translate(50%, 0);
+    transition: 0.8s;
+  }
+  
+  .basket-title {
+    text-transform: uppercase;
+    color: #EB3A52;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .basket-box {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+  }
+  
+  .basket-img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 5px;
+  }
+  
+  .detail-box {
+    display: grid;
+    row-gap: 0.5rem;
+  }
+  
+  .price-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .basket-film-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #ff6348;
+    font-weight: 500;
+  }
+  
+  .basket-price, .basket-amt {
+    font-weight: 700;
+  }
+  
+  .basket-quantity {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+  }
+  
+  .basket-remove {
+    font-size: 24px;
+    color: #EB3A52;
+    cursor: pointer;
+    position: relative;
+    top: -55px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+  }
+  
+  .total-title {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .total-price {
+    margin-left: 0.5rem;
+  }
+  
+  .btn-buy {
+    padding: 12px 20px;
+    background-color: #EB3A52;
+    display: flex;
+    margin: 0 auto;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+  }
+
+  .btn-buy:hover {
+    transform: scale(1.1);
+  }
+  
+  #basket-close {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .box {
+    color: white;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .basket-count {
+    position: absolute;
+    background-color: #EB3A52;
+    top: -11px;
+    right: -15px;
+    padding: 3px;
+    height: 25px;
+    width: 27px;
+    line-height: 20px;
+    border-radius: 50%;
+    z-index: 11;
+  }
+  
+  .basket-icon {
+    cursor: pointer;
+  }

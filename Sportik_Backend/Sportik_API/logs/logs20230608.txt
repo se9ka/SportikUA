@@ -1,0 +1,617 @@
+2023-06-08 12:24:48.104 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-08 12:24:49.290 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-08 12:24:49.535 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-08 12:24:49.915 +03:00 [INF] Entity Framework Core 6.0.16 initialized 'ProductsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: SensitiveDataLoggingEnabled 
+2023-06-08 12:24:49.970 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-08 12:24:50.254 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 1}'.
+2023-06-08 12:24:50.257 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 2}'.
+2023-06-08 12:24:50.257 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 3}'.
+2023-06-08 12:24:50.257 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 4}'.
+2023-06-08 12:24:50.257 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 5}'.
+2023-06-08 12:24:50.257 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 6}'.
+2023-06-08 12:24:50.258 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 7}'.
+2023-06-08 12:24:50.258 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 8}'.
+2023-06-08 12:24:50.258 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 9}'.
+2023-06-08 12:24:50.258 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 10}'.
+2023-06-08 12:24:50.258 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 11}'.
+2023-06-08 12:24:50.258 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 12}'.
+2023-06-08 12:24:50.258 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 13}'.
+2023-06-08 12:24:50.259 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 14}'.
+2023-06-08 12:24:50.259 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 15}'.
+2023-06-08 12:24:50.259 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 16}'.
+2023-06-08 12:24:50.317 +03:00 [DBG] DetectChanges starting for 'ProductsDbContext'.
+2023-06-08 12:24:50.341 +03:00 [DBG] DetectChanges completed for 'ProductsDbContext'.
+2023-06-08 12:24:50.491 +03:00 [DBG] Executing 16 update commands as a batch.
+2023-06-08 12:24:50.765 +03:00 [DBG] 'ProductsDbContext' disposed.
+2023-06-08 12:25:05.033 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-08 12:25:06.067 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-08 12:25:06.211 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-08 12:25:06.535 +03:00 [INF] Entity Framework Core 6.0.16 initialized 'ProductsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: SensitiveDataLoggingEnabled 
+2023-06-08 12:25:06.671 +03:00 [DBG] Migrating using database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:06.687 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:07.257 +03:00 [DBG] An error occurred using the connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:07.258 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:07.261 +03:00 [DBG] An error occurred using the connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:07.327 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-08 12:25:07.379 +03:00 [DBG] Opening connection to database 'master' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:07.423 +03:00 [DBG] Opened connection to database 'master' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:07.456 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 12:25:07.482 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (34ms).
+2023-06-08 12:25:07.505 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [SportikAPI];
+2023-06-08 12:25:08.303 +03:00 [INF] Executed DbCommand (799ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [SportikAPI];
+2023-06-08 12:25:08.306 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 12:25:08.306 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-08 12:25:08.306 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [SportikAPI] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-06-08 12:25:08.504 +03:00 [INF] Executed DbCommand (198ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [SportikAPI] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2023-06-08 12:25:08.506 +03:00 [DBG] Closing connection to database 'master' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.516 +03:00 [DBG] Closed connection to database 'master' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.522 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.533 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.533 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 12:25:08.534 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-08 12:25:08.534 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 12:25:08.552 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 12:25:08.553 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.553 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.761 +03:00 [DBG] DetectChanges starting for 'ProductsDbContext'.
+2023-06-08 12:25:08.768 +03:00 [DBG] DetectChanges completed for 'ProductsDbContext'.
+2023-06-08 12:25:08.796 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 12:25:08.797 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-08 12:25:08.797 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.798 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.798 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-06-08 12:25:08.812 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2023-06-08 12:25:08.812 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.812 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.814 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.814 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.814 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 12:25:08.814 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-08 12:25:08.814 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 12:25:08.815 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 12:25:08.815 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.816 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.829 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-08 12:25:08.829 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-06-08 12:25:08.829 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.830 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.830 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 12:25:08.862 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 12:25:08.863 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.864 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.868 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-08 12:25:08.868 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-06-08 12:25:08.868 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.868 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.869 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-08 12:25:08.875 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-08 12:25:08.877 +03:00 [DBG] A data reader was disposed.
+2023-06-08 12:25:08.878 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.878 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.900 +03:00 [INF] Applying migration '20230608092450_init'.
+2023-06-08 12:25:08.969 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.969 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:08.972 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-06-08 12:25:08.991 +03:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-06-08 12:25:08.992 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 12:25:08.993 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-08 12:25:08.997 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [ProductId] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [TypeOfProduct] nvarchar(max) NOT NULL,
+    [imgSrc] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([ProductId])
+);
+2023-06-08 12:25:09.261 +03:00 [INF] Executed DbCommand (264ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [ProductId] int NOT NULL IDENTITY,
+    [Title] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [TypeOfProduct] nvarchar(max) NOT NULL,
+    [imgSrc] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([ProductId])
+);
+2023-06-08 12:25:09.262 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 12:25:09.262 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-08 12:25:09.262 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'ProductId', N'Description', N'Price', N'Title', N'TypeOfProduct', N'imgSrc') AND [object_id] = OBJECT_ID(N'[Products]'))
+    SET IDENTITY_INSERT [Products] ON;
+INSERT INTO [Products] ([ProductId], [Description], [Price], [Title], [TypeOfProduct], [imgSrc])
+VALUES (1, N'OPTIMUM NUTRITION 100% WHEY GOLD STANDARD', 450.0, N'OPTIMUM NUTRITION', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/optimum.jpg?updatedAt=1686178714662'),
+(2, N'SCITEC NUTRITION 100% WHEY PROTEIN PROFESSIONAL', 530.0, N'SCITEC NUTRITION', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/scitec.jpg?updatedAt=1686178715027'),
+(3, N'AMIX ISOPRIME CFM', 770.0, N'AMIX ISOPRIME', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/optimum.jpg?updatedAt=1686178714662'),
+(4, N'AMIX ISOPRIMESCITEC NUTRITION 100% WHEY ISOLATE', 1030.0, N'SCITEC NUTRITION', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/scitecN.jpg?updatedAt=1686178714431'),
+(5, N'IRONMAXX 100% WHEY PROTEIN', 960.0, N'IRONMAXX', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/ironmax.jpg?updatedAt=1686178718701'),
+(6, N'SPORTER CREATINE MONOHYDRATE', 830.0, N'SPORTER CREATINE', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/monohydrate.jpg?updatedAt=1686178714523'),
+(7, N'SPORTER CREATINE HCL 1400', 750.0, N'SPORTER CREATINE HCL', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/hcl.jpg?updatedAt=1686178718775'),
+(8, N'AMIX AMIXPRО CREATINE HCL', 630.0, N'AMIXPRО CREATINE', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/amixpro.jpg?updatedAt=1686178718387'),
+(9, N'TREC NUTRITION CM3 HMB - 200 КАПС', 590.0, N'TREC NUTRITION', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/trecN.png?updatedAt=1686178714986'),
+(10, N'TREC NUTRITION CM3 POWDER', 730.0, N'TREC NUTRITION CM3', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/trecN2.png?updatedAt=1686178714889'),
+(11, N'TREC NUTRITION CM3 PRO+ - 200 КАПС', 450.0, N'TREC NUTRITION CM3', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/trecN3.png?updatedAt=1686178714929'),
+(12, N'AMIX XFAT 2IN1 SHOT', 780.0, N'AMIX XFAT 2IN1', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/XFat.jpg?updatedAt=1686178714900'),
+(13, N'HAYA LABS ACETYL L-CARNITINE', 450.0, N'HAYA LABS', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/acetyl.jpg?updatedAt=1686178718108'),
+(14, N'HAYA LABS ADVANCED LIQUID', 305.0, N'HAYA LABS ADVANCED', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/liquid.jpg?updatedAt=1686178718796'),
+(15, N'TREC NUTRITION L-CARNITINE 3000', 450.0, N'TREC NUTRITION', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/trec.png?updatedAt=1686178714843'),
+(16, N'SPORTER L- CARNITINE 60000 - 0,5Л', 380.0, N'SPORTER L- CARNITINE', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/sporter.png?updatedAt=1686178714667');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'ProductId', N'Description', N'Price', N'Title', N'TypeOfProduct', N'imgSrc') AND [object_id] = OBJECT_ID(N'[Products]'))
+    SET IDENTITY_INSERT [Products] OFF;
+2023-06-08 12:25:09.379 +03:00 [INF] Executed DbCommand (117ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'ProductId', N'Description', N'Price', N'Title', N'TypeOfProduct', N'imgSrc') AND [object_id] = OBJECT_ID(N'[Products]'))
+    SET IDENTITY_INSERT [Products] ON;
+INSERT INTO [Products] ([ProductId], [Description], [Price], [Title], [TypeOfProduct], [imgSrc])
+VALUES (1, N'OPTIMUM NUTRITION 100% WHEY GOLD STANDARD', 450.0, N'OPTIMUM NUTRITION', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/optimum.jpg?updatedAt=1686178714662'),
+(2, N'SCITEC NUTRITION 100% WHEY PROTEIN PROFESSIONAL', 530.0, N'SCITEC NUTRITION', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/scitec.jpg?updatedAt=1686178715027'),
+(3, N'AMIX ISOPRIME CFM', 770.0, N'AMIX ISOPRIME', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/optimum.jpg?updatedAt=1686178714662'),
+(4, N'AMIX ISOPRIMESCITEC NUTRITION 100% WHEY ISOLATE', 1030.0, N'SCITEC NUTRITION', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/scitecN.jpg?updatedAt=1686178714431'),
+(5, N'IRONMAXX 100% WHEY PROTEIN', 960.0, N'IRONMAXX', N'protein', N'https://ik.imagekit.io/w5l3jpc0n/ironmax.jpg?updatedAt=1686178718701'),
+(6, N'SPORTER CREATINE MONOHYDRATE', 830.0, N'SPORTER CREATINE', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/monohydrate.jpg?updatedAt=1686178714523'),
+(7, N'SPORTER CREATINE HCL 1400', 750.0, N'SPORTER CREATINE HCL', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/hcl.jpg?updatedAt=1686178718775'),
+(8, N'AMIX AMIXPRО CREATINE HCL', 630.0, N'AMIXPRО CREATINE', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/amixpro.jpg?updatedAt=1686178718387'),
+(9, N'TREC NUTRITION CM3 HMB - 200 КАПС', 590.0, N'TREC NUTRITION', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/trecN.png?updatedAt=1686178714986'),
+(10, N'TREC NUTRITION CM3 POWDER', 730.0, N'TREC NUTRITION CM3', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/trecN2.png?updatedAt=1686178714889'),
+(11, N'TREC NUTRITION CM3 PRO+ - 200 КАПС', 450.0, N'TREC NUTRITION CM3', N'creatine', N'https://ik.imagekit.io/w5l3jpc0n/trecN3.png?updatedAt=1686178714929'),
+(12, N'AMIX XFAT 2IN1 SHOT', 780.0, N'AMIX XFAT 2IN1', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/XFat.jpg?updatedAt=1686178714900'),
+(13, N'HAYA LABS ACETYL L-CARNITINE', 450.0, N'HAYA LABS', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/acetyl.jpg?updatedAt=1686178718108'),
+(14, N'HAYA LABS ADVANCED LIQUID', 305.0, N'HAYA LABS ADVANCED', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/liquid.jpg?updatedAt=1686178718796'),
+(15, N'TREC NUTRITION L-CARNITINE 3000', 450.0, N'TREC NUTRITION', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/trec.png?updatedAt=1686178714843'),
+(16, N'SPORTER L- CARNITINE 60000 - 0,5Л', 380.0, N'SPORTER L- CARNITINE', N'l-carnitine', N'https://ik.imagekit.io/w5l3jpc0n/sporter.png?updatedAt=1686178714667');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'ProductId', N'Description', N'Price', N'Title', N'TypeOfProduct', N'imgSrc') AND [object_id] = OBJECT_ID(N'[Products]'))
+    SET IDENTITY_INSERT [Products] OFF;
+2023-06-08 12:25:11.376 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 12:25:11.376 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-06-08 12:25:11.376 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230608092450_init', N'6.0.16');
+2023-06-08 12:25:11.382 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20230608092450_init', N'6.0.16');
+2023-06-08 12:25:11.384 +03:00 [DBG] Committing transaction.
+2023-06-08 12:25:11.390 +03:00 [DBG] Committed transaction.
+2023-06-08 12:25:11.393 +03:00 [DBG] Disposing transaction.
+2023-06-08 12:25:11.393 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:11.393 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 12:25:11.396 +03:00 [DBG] 'ProductsDbContext' disposed.
+2023-06-08 13:00:59.607 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-08 13:01:01.077 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-08 13:01:01.312 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-08 13:01:01.731 +03:00 [INF] Entity Framework Core 6.0.16 initialized 'ProductsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: SensitiveDataLoggingEnabled 
+2023-06-08 13:01:06.033 +03:00 [DBG] Migrating using database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:06.068 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:07.874 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:07.905 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 13:01:07.923 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (20ms).
+2023-06-08 13:01:07.958 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 13:01:08.095 +03:00 [INF] Executed DbCommand (147ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 13:01:08.107 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.121 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.154 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-08 13:01:08.178 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (24ms).
+2023-06-08 13:01:08.193 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.198 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.208 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 13:01:08.277 +03:00 [INF] Executed DbCommand (70ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 13:01:08.283 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.291 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.306 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.309 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.311 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 13:01:08.313 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2023-06-08 13:01:08.315 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 13:01:08.332 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 13:01:08.464 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.471 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.473 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-08 13:01:08.476 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2023-06-08 13:01:08.479 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.482 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.486 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 13:01:08.497 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 13:01:08.508 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.510 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.572 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-08 13:01:08.582 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (9ms).
+2023-06-08 13:01:08.586 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.591 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.594 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-08 13:01:08.618 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-08 13:01:08.637 +03:00 [DBG] A data reader was disposed.
+2023-06-08 13:01:08.639 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.641 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:01:08.678 +03:00 [INF] No migrations were applied. The database is already up to date.
+2023-06-08 13:01:08.683 +03:00 [DBG] 'ProductsDbContext' disposed.
+2023-06-08 13:01:09.761 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-08 13:01:09.875 +03:00 [DBG] Hosting starting
+2023-06-08 13:01:10.943 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24757BB8D7ED95268F498ACD5F43442B900ABFC4)
+2023-06-08 13:01:11.122 +03:00 [INF] Now listening on: https://localhost:7203
+2023-06-08 13:01:11.142 +03:00 [INF] Now listening on: http://localhost:5203
+2023-06-08 13:01:11.166 +03:00 [DBG] Loaded hosting startup assembly Sportik_API
+2023-06-08 13:01:11.169 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-08 13:01:11.171 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-08 13:01:11.174 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-08 13:01:11.176 +03:00 [INF] Hosting environment: Development
+2023-06-08 13:01:11.178 +03:00 [INF] Content root path: C:\Users\saliv\OneDrive\Рабочий стол\Sportik\Sportik_Backend\Sportik_API\
+2023-06-08 13:01:11.182 +03:00 [DBG] Hosting started
+2023-06-08 13:01:11.337 +03:00 [DBG] Connection id "0HMR80T4QTGOV" accepted.
+2023-06-08 13:01:11.337 +03:00 [DBG] Connection id "0HMR80T4QTGP0" accepted.
+2023-06-08 13:01:11.365 +03:00 [DBG] Connection id "0HMR80T4QTGOV" started.
+2023-06-08 13:01:11.375 +03:00 [DBG] Connection id "0HMR80T4QTGP0" started.
+2023-06-08 13:01:13.212 +03:00 [DBG] Connection id "0HMR80T4QTGP1" accepted.
+2023-06-08 13:01:13.451 +03:00 [DBG] Connection id "0HMR80T4QTGP1" started.
+2023-06-08 13:01:13.451 +03:00 [DBG] Connection id "0HMR80T4QTGP2" accepted.
+2023-06-08 13:01:13.457 +03:00 [DBG] Connection id "0HMR80T4QTGP2" started.
+2023-06-08 13:01:13.596 +03:00 [DBG] Connection id "0HMR80T4QTGP2" received FIN.
+2023-06-08 13:01:13.642 +03:00 [DBG] Connection 0HMR80T4QTGP1 established using the following protocol: "Tls13"
+2023-06-08 13:01:13.642 +03:00 [DBG] Connection 0HMR80T4QTGP2 established using the following protocol: "Tls13"
+2023-06-08 13:01:13.701 +03:00 [DBG] Connection id "0HMR80T4QTGP2" is closed. The last processed stream ID was 0.
+2023-06-08 13:01:13.706 +03:00 [DBG] Connection id "0HMR80T4QTGP2" sending FIN because: "The client closed the connection."
+2023-06-08 13:01:13.720 +03:00 [DBG] Connection id "0HMR80T4QTGP2" stopped.
+2023-06-08 13:01:13.807 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger - -
+2023-06-08 13:01:13.865 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-08 13:01:13.913 +03:00 [DBG] No candidates found for the request path '/swagger'
+2023-06-08 13:01:13.921 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:01:14.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger - - - 301 0 - 249.2359ms
+2023-06-08 13:01:14.054 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger/index.html - -
+2023-06-08 13:01:14.058 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-08 13:01:14.060 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:01:14.406 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-08 13:01:14.744 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-08 13:01:14.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger/index.html - - - 200 - text/html;charset=utf-8 692.5560ms
+2023-06-08 13:01:14.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger/swagger-ui-bundle.js - -
+2023-06-08 13:01:14.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger/swagger-ui-standalone-preset.js - -
+2023-06-08 13:01:14.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger/swagger-ui.css - -
+2023-06-08 13:01:14.756 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-06-08 13:01:14.758 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-06-08 13:01:14.761 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-06-08 13:01:14.763 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:01:14.766 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:01:14.769 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:01:14.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/_framework/aspnetcore-browser-refresh.js - -
+2023-06-08 13:01:14.887 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/_framework/aspnetcore-browser-refresh.js - - - 200 11945 application/javascript;+charset=utf-8 27.6567ms
+2023-06-08 13:01:14.899 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-06-08 13:01:14.896 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-08 13:01:14.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger/swagger-ui.css - - - 200 143632 text/css 157.0953ms
+2023-06-08 13:01:14.937 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 181.3088ms
+2023-06-08 13:01:14.957 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-06-08 13:01:14.961 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 206.8420ms
+2023-06-08 13:01:15.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger/v1/swagger.json - -
+2023-06-08 13:01:15.454 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-08 13:01:15.458 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:01:15.517 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger/favicon-32x32.png - -
+2023-06-08 13:01:15.521 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-06-08 13:01:15.523 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:01:15.526 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-08 13:01:15.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger/favicon-32x32.png - - - 200 628 image/png 17.1659ms
+2023-06-08 13:01:16.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 814.5330ms
+2023-06-08 13:01:16.941 +03:00 [DBG] Connection id "0HMR80T4QTGP1" received FIN.
+2023-06-08 13:01:16.992 +03:00 [DBG] Connection id "0HMR80T4QTGP1" is closed. The last processed stream ID was 15.
+2023-06-08 13:01:16.996 +03:00 [DBG] Connection id "0HMR80T4QTGP1" sending FIN because: "The client closed the connection."
+2023-06-08 13:01:17.012 +03:00 [DBG] Connection id "0HMR80T4QTGP1" stopped.
+2023-06-08 13:01:21.957 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-06-08 13:01:21.988 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-06-08 13:01:21.990 +03:00 [DBG] Connection id "0HMR80T4QTGP0" stopped.
+2023-06-08 13:01:21.992 +03:00 [DBG] Connection id "0HMR80T4QTGOV" stopped.
+2023-06-08 13:01:21.994 +03:00 [DBG] Connection id "0HMR80T4QTGP0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-08 13:01:21.997 +03:00 [DBG] Connection id "0HMR80T4QTGOV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-08 13:03:33.740 +03:00 [DBG] Connection id "0HMR80T4QTGP3" accepted.
+2023-06-08 13:03:33.756 +03:00 [DBG] Connection id "0HMR80T4QTGP3" started.
+2023-06-08 13:03:33.783 +03:00 [DBG] Connection 0HMR80T4QTGP3 established using the following protocol: "Tls13"
+2023-06-08 13:03:33.787 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/api/products - -
+2023-06-08 13:03:33.799 +03:00 [DBG] 1 candidate(s) found for the request path '/api/products'
+2023-06-08 13:03:33.809 +03:00 [DBG] Endpoint 'Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API)' with route pattern 'api/products' is valid for the request path '/api/products'
+2023-06-08 13:03:33.812 +03:00 [DBG] Request matched endpoint 'Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API)'
+2023-06-08 13:03:33.816 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-08 13:03:33.821 +03:00 [INF] Executing endpoint 'Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API)'
+2023-06-08 13:03:33.875 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Sportik_API.Bll.ProductDTO]] GetProducts() on controller Sportik_API.Controllers.ProductsController (Sportik_API).
+2023-06-08 13:03:33.890 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-08 13:03:33.893 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-08 13:03:33.901 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-08 13:03:33.905 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-08 13:03:33.907 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-08 13:03:33.912 +03:00 [DBG] Executing controller factory for controller Sportik_API.Controllers.ProductsController (Sportik_API)
+2023-06-08 13:03:34.254 +03:00 [DBG] Executed controller factory for controller Sportik_API.Controllers.ProductsController (Sportik_API)
+2023-06-08 13:03:34.305 +03:00 [INF] Entity Framework Core 6.0.16 initialized 'ProductsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: SensitiveDataLoggingEnabled 
+2023-06-08 13:03:34.428 +03:00 [DBG] Compiling query expression: 
+'DbSet<Product>()'
+2023-06-08 13:03:34.780 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.ProductId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Description (string) Required, 1], [Property: Product.Price (decimal) Required, 2], [Property: Product.Title (string) Required, 3], [Property: Product.TypeOfProduct (string) Required, 4], [Property: Product.imgSrc (string) Required, 5] }
+        SELECT p.ProductId, p.Description, p.Price, p.Title, p.TypeOfProduct, p.imgSrc
+        FROM Products AS p), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    Sportik_API.Dal.ProductsDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-06-08 13:03:34.865 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-08 13:03:34.871 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (6ms).
+2023-06-08 13:03:34.873 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:03:34.876 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:03:34.883 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[Price], [p].[Title], [p].[TypeOfProduct], [p].[imgSrc]
+FROM [Products] AS [p]
+2023-06-08 13:03:34.901 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[Price], [p].[Title], [p].[TypeOfProduct], [p].[imgSrc]
+FROM [Products] AS [p]
+2023-06-08 13:03:34.949 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 1}'.
+2023-06-08 13:03:35.012 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 2}'.
+2023-06-08 13:03:35.016 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 3}'.
+2023-06-08 13:03:35.019 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 4}'.
+2023-06-08 13:03:35.022 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 5}'.
+2023-06-08 13:03:35.025 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 6}'.
+2023-06-08 13:03:35.028 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 7}'.
+2023-06-08 13:03:35.032 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 8}'.
+2023-06-08 13:03:35.035 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 9}'.
+2023-06-08 13:03:35.038 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 10}'.
+2023-06-08 13:03:35.041 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 11}'.
+2023-06-08 13:03:35.044 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 12}'.
+2023-06-08 13:03:35.049 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 13}'.
+2023-06-08 13:03:35.052 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 14}'.
+2023-06-08 13:03:35.055 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 15}'.
+2023-06-08 13:03:35.059 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 16}'.
+2023-06-08 13:03:35.062 +03:00 [DBG] A data reader was disposed.
+2023-06-08 13:03:35.064 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:03:35.067 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:03:35.866 +03:00 [INF] Executed action Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API) in 1946.1312ms
+2023-06-08 13:03:36.206 +03:00 [INF] Executed endpoint 'Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API)'
+2023-06-08 13:03:36.828 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+List`1 -> ProductDTO
+System.Collections.Generic.List`1[[Sportik_API.Dal.Product, Sportik_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Sportik_API.Bll.ProductDTO
+   at lambda_method58(Closure , Object , ProductDTO , ResolutionContext )
+   at Sportik_API.Controllers.ProductsController.GetProducts() in C:\Users\saliv\OneDrive\Рабочий стол\Sportik\Sportik_Backend\Sportik_API\Controllers\ProductsController.cs:line 24
+   at lambda_method14(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-06-08 13:03:36.959 +03:00 [DBG] 'ProductsDbContext' disposed.
+2023-06-08 13:03:36.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/api/products - - - 500 - text/plain;+charset=utf-8 3179.0827ms
+2023-06-08 13:03:37.018 +03:00 [DBG] Connection id "0HMR80T4QTGP3" received FIN.
+2023-06-08 13:03:37.020 +03:00 [DBG] Connection id "0HMR80T4QTGP3" is closed. The last processed stream ID was 1.
+2023-06-08 13:03:37.023 +03:00 [DBG] Connection id "0HMR80T4QTGP3" sending FIN because: "The client closed the connection."
+2023-06-08 13:03:37.037 +03:00 [DBG] Connection id "0HMR80T4QTGP3" stopped.
+2023-06-08 13:06:22.171 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-08 13:06:23.238 +03:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-08 13:06:23.422 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-08 13:06:23.729 +03:00 [INF] Entity Framework Core 6.0.16 initialized 'ProductsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: SensitiveDataLoggingEnabled 
+2023-06-08 13:06:23.902 +03:00 [DBG] Migrating using database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:23.936 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:24.757 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:24.789 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 13:06:24.808 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (19ms).
+2023-06-08 13:06:24.839 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 13:06:24.927 +03:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 13:06:24.944 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:24.959 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:24.983 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-08 13:06:24.991 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (7ms).
+2023-06-08 13:06:24.992 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:24.996 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.003 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 13:06:25.076 +03:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 13:06:25.081 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.083 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.096 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.098 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.101 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-06-08 13:06:25.103 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (2ms).
+2023-06-08 13:06:25.106 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 13:06:25.130 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-06-08 13:06:25.142 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.144 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.149 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-06-08 13:06:25.151 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2023-06-08 13:06:25.153 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.157 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.159 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 13:06:25.188 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-06-08 13:06:25.195 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.198 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.253 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-08 13:06:25.255 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-06-08 13:06:25.257 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.259 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.263 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-08 13:06:25.282 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-06-08 13:06:25.297 +03:00 [DBG] A data reader was disposed.
+2023-06-08 13:06:25.299 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.301 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:25.328 +03:00 [INF] No migrations were applied. The database is already up to date.
+2023-06-08 13:06:25.332 +03:00 [DBG] 'ProductsDbContext' disposed.
+2023-06-08 13:06:25.576 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-08 13:06:25.645 +03:00 [DBG] Hosting starting
+2023-06-08 13:06:25.946 +03:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 24757BB8D7ED95268F498ACD5F43442B900ABFC4)
+2023-06-08 13:06:26.010 +03:00 [INF] Now listening on: https://localhost:7203
+2023-06-08 13:06:26.014 +03:00 [INF] Now listening on: http://localhost:5203
+2023-06-08 13:06:26.021 +03:00 [DBG] Loaded hosting startup assembly Sportik_API
+2023-06-08 13:06:26.026 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-08 13:06:26.035 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-08 13:06:26.042 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-08 13:06:26.045 +03:00 [INF] Hosting environment: Development
+2023-06-08 13:06:26.046 +03:00 [INF] Content root path: C:\Users\saliv\OneDrive\Рабочий стол\Sportik\Sportik_Backend\Sportik_API\
+2023-06-08 13:06:26.048 +03:00 [DBG] Hosting started
+2023-06-08 13:06:26.238 +03:00 [DBG] Connection id "0HMR8102M3JQ6" received FIN.
+2023-06-08 13:06:26.256 +03:00 [DBG] Connection id "0HMR8102M3JQ6" accepted.
+2023-06-08 13:06:26.259 +03:00 [DBG] Connection id "0HMR8102M3JQ6" started.
+2023-06-08 13:06:26.435 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-08 13:06:26.849 +03:00 [DBG] Connection id "0HMR8102M3JQ6" stopped.
+2023-06-08 13:06:26.859 +03:00 [DBG] Connection id "0HMR8102M3JQ6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-08 13:06:27.096 +03:00 [DBG] Connection id "0HMR8102M3JQ7" accepted.
+2023-06-08 13:06:27.171 +03:00 [DBG] Connection id "0HMR8102M3JQ7" started.
+2023-06-08 13:06:27.354 +03:00 [DBG] Connection 0HMR8102M3JQ7 established using the following protocol: "Tls13"
+2023-06-08 13:06:27.537 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger/index.html - -
+2023-06-08 13:06:27.604 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-08 13:06:27.686 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-08 13:06:27.691 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:06:28.138 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-06-08 13:06:28.447 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-06-08 13:06:28.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/_framework/aspnetcore-browser-refresh.js - -
+2023-06-08 13:06:28.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/_framework/aspnetcore-browser-refresh.js - - - 200 11945 application/javascript;+charset=utf-8 8.8996ms
+2023-06-08 13:06:28.482 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger/index.html - - - 200 - text/html;charset=utf-8 953.4666ms
+2023-06-08 13:06:29.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/swagger/v1/swagger.json - -
+2023-06-08 13:06:29.253 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-08 13:06:29.256 +03:00 [DBG] Request did not match any endpoints
+2023-06-08 13:06:29.842 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 622.4359ms
+2023-06-08 13:06:37.343 +03:00 [DBG] Connection id "0HMR8102M3JQ7" received FIN.
+2023-06-08 13:06:37.346 +03:00 [DBG] Connection id "0HMR8102M3JQ7" is closed. The last processed stream ID was 5.
+2023-06-08 13:06:37.348 +03:00 [DBG] Connection id "0HMR8102M3JQ7" sending FIN because: "The client closed the connection."
+2023-06-08 13:06:37.369 +03:00 [DBG] Connection id "0HMR8102M3JQ7" stopped.
+2023-06-08 13:06:45.080 +03:00 [DBG] Connection id "0HMR8102M3JQ8" accepted.
+2023-06-08 13:06:45.114 +03:00 [DBG] Connection id "0HMR8102M3JQ8" started.
+2023-06-08 13:06:45.139 +03:00 [DBG] Connection 0HMR8102M3JQ8 established using the following protocol: "Tls13"
+2023-06-08 13:06:45.146 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7203/api/products - -
+2023-06-08 13:06:45.169 +03:00 [DBG] 1 candidate(s) found for the request path '/api/products'
+2023-06-08 13:06:45.199 +03:00 [DBG] Endpoint 'Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API)' with route pattern 'api/products' is valid for the request path '/api/products'
+2023-06-08 13:06:45.206 +03:00 [DBG] Request matched endpoint 'Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API)'
+2023-06-08 13:06:45.211 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-08 13:06:45.218 +03:00 [INF] Executing endpoint 'Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API)'
+2023-06-08 13:06:45.279 +03:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Sportik_API.Bll.ProductDTO]]] GetProducts() on controller Sportik_API.Controllers.ProductsController (Sportik_API).
+2023-06-08 13:06:45.284 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-08 13:06:45.288 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-08 13:06:45.291 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-08 13:06:45.295 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-08 13:06:45.298 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+2023-06-08 13:06:45.303 +03:00 [DBG] Executing controller factory for controller Sportik_API.Controllers.ProductsController (Sportik_API)
+2023-06-08 13:06:45.571 +03:00 [DBG] Executed controller factory for controller Sportik_API.Controllers.ProductsController (Sportik_API)
+2023-06-08 13:06:45.599 +03:00 [INF] Entity Framework Core 6.0.16 initialized 'ProductsDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: SensitiveDataLoggingEnabled 
+2023-06-08 13:06:45.708 +03:00 [DBG] Compiling query expression: 
+'DbSet<Product>()'
+2023-06-08 13:06:46.067 +03:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.ProductId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Description (string) Required, 1], [Property: Product.Price (decimal) Required, 2], [Property: Product.Title (string) Required, 3], [Property: Product.TypeOfProduct (string) Required, 4], [Property: Product.imgSrc (string) Required, 5] }
+        SELECT p.ProductId, p.Description, p.Price, p.Title, p.TypeOfProduct, p.imgSrc
+        FROM Products AS p), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    Sportik_API.Dal.ProductsDbContext, 
+    False, 
+    False, 
+    True
+)'
+2023-06-08 13:06:46.145 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-06-08 13:06:46.148 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2023-06-08 13:06:46.150 +03:00 [DBG] Opening connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:46.153 +03:00 [DBG] Opened connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:46.156 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[Price], [p].[Title], [p].[TypeOfProduct], [p].[imgSrc]
+FROM [Products] AS [p]
+2023-06-08 13:06:46.163 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductId], [p].[Description], [p].[Price], [p].[Title], [p].[TypeOfProduct], [p].[imgSrc]
+FROM [Products] AS [p]
+2023-06-08 13:06:46.218 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 1}'.
+2023-06-08 13:06:46.289 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 2}'.
+2023-06-08 13:06:46.293 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 3}'.
+2023-06-08 13:06:46.296 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 4}'.
+2023-06-08 13:06:46.299 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 5}'.
+2023-06-08 13:06:46.303 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 6}'.
+2023-06-08 13:06:46.307 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 7}'.
+2023-06-08 13:06:46.310 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 8}'.
+2023-06-08 13:06:46.314 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 9}'.
+2023-06-08 13:06:46.317 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 10}'.
+2023-06-08 13:06:46.322 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 11}'.
+2023-06-08 13:06:46.327 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 12}'.
+2023-06-08 13:06:46.330 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 13}'.
+2023-06-08 13:06:46.334 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 14}'.
+2023-06-08 13:06:46.339 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 15}'.
+2023-06-08 13:06:46.342 +03:00 [DBG] Context 'ProductsDbContext' started tracking 'Product' entity with key '{ProductId: 16}'.
+2023-06-08 13:06:46.346 +03:00 [DBG] A data reader was disposed.
+2023-06-08 13:06:46.348 +03:00 [DBG] Closing connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:46.350 +03:00 [DBG] Closed connection to database 'SportikAPI' on server 'DESKTOP-HAL50HT'.
+2023-06-08 13:06:46.417 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter"]
+2023-06-08 13:06:46.442 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]' and explicitly specified content types '["application/json","application/xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2023-06-08 13:06:46.462 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-08 13:06:46.465 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Sportik_API.Bll.ProductDTO, Sportik_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-08 13:06:46.832 +03:00 [INF] Executed action Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API) in 1518.8763ms
+2023-06-08 13:06:46.842 +03:00 [INF] Executed endpoint 'Sportik_API.Controllers.ProductsController.GetProducts (Sportik_API)'
+2023-06-08 13:06:46.849 +03:00 [DBG] 'ProductsDbContext' disposed.
+2023-06-08 13:06:46.872 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7203/api/products - - - 200 3173 application/json;+charset=utf-8 1725.7889ms
+2023-06-08 13:06:47.380 +03:00 [DBG] Connection id "0HMR8102M3JQ8" received FIN.
+2023-06-08 13:06:47.382 +03:00 [DBG] Connection id "0HMR8102M3JQ8" is closed. The last processed stream ID was 1.
+2023-06-08 13:06:47.384 +03:00 [DBG] Connection id "0HMR8102M3JQ8" sending FIN because: "The client closed the connection."
+2023-06-08 13:06:47.391 +03:00 [DBG] Connection id "0HMR8102M3JQ8" stopped.
